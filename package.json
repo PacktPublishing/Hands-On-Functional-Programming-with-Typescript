@@ -1,0 +1,23 @@
+{
+  "name": "hands-on-functional-programming-with-typescript",
+  "version": "1.0.0",
+  "description": "Hands-On Functional Programming with Typescript, published by Packt",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^3.2.0-dev.20181011"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PacktPublishing/Hands-On-Functional-Programming-with-Typescript.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PacktPublishing/Hands-On-Functional-Programming-with-Typescript/issues"
+  },
+  "homepage": "https://github.com/PacktPublishing/Hands-On-Functional-Programming-with-Typescript#readme"
+}

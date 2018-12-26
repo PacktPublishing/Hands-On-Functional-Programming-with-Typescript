@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "Hands-On Functional Programming with Typescript, published by Packt",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "@types/ramda": "0.25.45",
+    "ramda": "0.26.1"
+  },
   "devDependencies": {
     "typescript": "^3.2.0-dev.20181011"
   },

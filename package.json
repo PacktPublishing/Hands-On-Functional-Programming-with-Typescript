@@ -4,14 +4,15 @@
   "description": "Hands-On Functional Programming with Typescript, published by Packt",
   "main": "index.js",
   "dependencies": {
-    "@types/node": "^10.12.18",
-    "@types/node-fetch": "^2.1.4",
+    "@types/node": "10.12.18",
+    "@types/node-fetch": "2.1.4",
     "@types/ramda": "0.25.45",
-    "funfix": "^7.0.1",
-    "immer": "^1.9.3",
-    "immutable": "^4.0.0-rc.12",
-    "node-fetch": "^2.3.0",
-    "ramda": "0.26.1"
+    "funfix": "7.0.1",
+    "immer": "1.9.3",
+    "immutable": "4.0.0-rc.12",
+    "node-fetch": "2.3.0",
+    "ramda": "0.26.1",
+    "rxjs": "6.3.3"
   },
   "devDependencies": {
     "typescript": "^3.2.0-dev.20181011"

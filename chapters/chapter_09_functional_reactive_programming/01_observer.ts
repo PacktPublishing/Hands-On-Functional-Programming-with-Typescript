@@ -37,7 +37,7 @@ namespace observer_pattern_demo {
     );
 
     const listerner2 = new Listener(
-        (msg: string) => console.log(`Listener 1: ${msg}`)
+        (msg: string) => console.log(`Listener 2: ${msg}`)
     );
     
     const notify = new Producer<string>();

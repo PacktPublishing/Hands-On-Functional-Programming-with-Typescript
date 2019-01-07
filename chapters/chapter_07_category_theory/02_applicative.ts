@@ -15,12 +15,21 @@ namespace applicative_demo_1 {
         public map<TMap>(fn: (val: T) => TMap) {
             return new Container<TMap>(fn(this._value));
         }
+
+        public ap<TMap>(c: Container<(val: T) => TMap>) {
+            return c.map(fn => this.map(fn));
+        }
     
     }
 
     let double = (x: number) => x + x;
-    let container = Container.of(3);
-    let container2 = container.map(double);
-    console.log(container2); // { _value: 6 }
+    let numberContainer = Container.of(3);
+    let functionContainer = Container.of(double);
+
+    // Container<number> with value 6
+    numberContainer.map(double);
+
+    // Container<number> with value 6
+    numberContainer.ap(functionContainer);
 
 }

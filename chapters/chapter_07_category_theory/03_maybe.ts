@@ -25,6 +25,11 @@ namespace maybe_demo_1 {
                 return new MayBe<TMap>(fn(this._value));
             }
         }
+
+        public ap<TMap>(c: MayBe<(val: T) => TMap>) {
+            return c.map(fn => this.map(fn));
+        }
+    
     
     }
     

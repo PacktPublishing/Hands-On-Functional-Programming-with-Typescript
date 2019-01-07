@@ -47,6 +47,10 @@ namespace monads_demo_1 {
                 return new MayBe<TMap>(fn(this._value));
             }
         }
+
+        public ap<TMap>(c: MayBe<(val: T) => TMap>) {
+            return c.map(fn => this.map(fn));
+        }
     
         public join() {
             return this.isNothing() ? Nothing.of(this._value) : this._value;

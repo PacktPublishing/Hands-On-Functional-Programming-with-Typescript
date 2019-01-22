@@ -15,7 +15,7 @@ module immutability {
             return newInstance;
         }
         public remove(
-            item,
+            item: T,
             areEqual: (a: T, b: T) => boolean = (a, b) => a === b
         ) {
             const newList = this._list.filter(i => !areEqual(item, i))

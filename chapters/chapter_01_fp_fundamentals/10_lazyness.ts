@@ -10,7 +10,7 @@ module lazyness {
                 get: (obj, prop) => {
                     console.log("Filtering...");
                     if (!hero) {
-                        hero = arr.find(filter);
+                        hero = arr.find(filter) || null;
                     }
                     return hero ? hero[prop] : null;
                 }

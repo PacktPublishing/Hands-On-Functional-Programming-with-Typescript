@@ -27,15 +27,18 @@ namespace side_effects_demo {
     console.log(`Remo is ${userAge1 / 12} years old!`);
     
     // The variable userAge2 is a number but the function throws!
-    const userAge2 = findUserAgeByName([], "Leo"); 
+    const userAge2 = findUserAgeByName([], "Leo"); // Error
     console.log(`Leo is ${userAge2 / 12} years old!`);
     
     
     function safeFindUserAgeByName(users: User[], name: string): Promise<number> {
+
         if (users.length == 0) {
             return Promise.reject(new Error("There are no users!"));
         }
+
         const user = users.find(u => u.name === name);
+
         if (!user) {
             return Promise.reject(new Error("User not found!"));
         } else {
@@ -46,7 +49,7 @@ namespace side_effects_demo {
     safeFindUserAgeByName(users, "Remo")
         .then(userAge1 => console.log(`Remo is ${userAge1 / 12} years old!`));
     
-    safeFindUserAgeByName([], "Leo")
+    safeFindUserAgeByName([], "Leo") // Error
         .then(userAge1 => console.log(`Leo is ${userAge1 / 12} years old!`));
     
         

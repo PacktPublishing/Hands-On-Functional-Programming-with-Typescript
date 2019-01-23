@@ -88,11 +88,21 @@ namespace closures_demo_3 {
     
         let _COUNTER = 0;
     
-        function changeBy(val) {
+        function changeBy(val: number) {
             _COUNTER += val;
         }
+
+        interface Counter {
+            increment: () => void;
+            decrement: () => void;
+            value: () => number;
+        }
+
+        interface CounterConstructor {
+            new(): Counter;
+        }
     
-        function Counter() {};
+        const Counter = function Counter() {};
     
         // closure functions
     
@@ -108,7 +118,7 @@ namespace closures_demo_3 {
           return _COUNTER;
         };
     
-        return Counter;
+        return (Counter as unknown) as CounterConstructor;
     
     })();
 

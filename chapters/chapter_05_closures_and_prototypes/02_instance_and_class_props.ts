@@ -1,5 +1,9 @@
 namespace instance_and_calss_props_demo_1 {
 
+    /*
+
+    // You can do the following in JavaScript
+
     const name = "remo";
     const surname = "jansen";
 
@@ -20,6 +24,12 @@ namespace instance_and_calss_props_demo_1 {
         person1[property] + "'");
     }
 
+    let person2 = new Person("John", "Wick");
+    person2.name; // "John"
+    person1.name; // "Remo"
+
+    */
+
     /*
 
         // Console output
@@ -34,10 +44,6 @@ namespace instance_and_calss_props_demo_1 {
         }'
     
     */
-
-   let person2 = new Person("John", "Wick");
-   person2.name; // "John"
-   person1.name; // "Remo"
 
 }
 

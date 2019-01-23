@@ -12,7 +12,7 @@ module lazyness {
                     if (!hero) {
                         hero = arr.find(filter) || null;
                     }
-                    return hero ? hero[prop] : null;
+                    return hero ? (hero as any)[prop] : null;
                 }
             }
         );

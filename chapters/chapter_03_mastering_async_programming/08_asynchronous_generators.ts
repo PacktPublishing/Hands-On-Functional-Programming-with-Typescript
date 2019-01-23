@@ -17,7 +17,8 @@ namespace asynchronous_generators_demo_1 {
         yield await doSomethingAsync();
     }
 
-    let i = g1();
+    let i: AsyncIterableIterator<number> = g1();
+
     i.next().then((n) => console.log(n)); // 1
     i.next().then((n) => console.log(n)); // 2
     i.next().then((n) => console.log(n)); // 3

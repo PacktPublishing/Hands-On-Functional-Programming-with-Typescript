@@ -15,11 +15,16 @@ namespace default_parameters_demo_2 {
 }
 
 namespace default_parameters_demo_3 {
-
-    function add(foo: number, bar: number, foobar: number = 0) {
+    
+    /*
+    
+    // This is the compilation output of default_parameters_demo_2
+    
+    function add(foo, bar, foobar) {
         if (foobar === void 0) { foobar = 0; }
         return foo + bar + foobar;
     }
+    */
 
 }
 

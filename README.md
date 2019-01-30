@@ -43,15 +43,7 @@ With the following software and hardware list you can run all code files present
 | Chapter | Software required | OS required |
 | -------- | ------------------------------------ | ----------------------------------- |
 | 1-10 | Visual Studio Code 1.30, Node.js 10.15.0, TypeScript 3.2 | Windows, Linux, and OSX |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+
 
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://www.packtpub.com/sites/default/files/downloads/9781788831437_ColorImages.pdf.).
 
@@ -60,9 +52,6 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 
 * TypeScript 3.0 Quick Start Guide [[Packt]](https://www.packtpub.com/application-development/typescript-30-quick-start-guide?utm_source=github&utm_medium=repository&utm_campaign=9781789345575 ) [[Amazon]](https://www.amazon.com/dp/178934557X)
 
-*  [[Packt]]() [[Amazon]](https://www.amazon.com/dp/)
-
-*  [[Packt]]() [[Amazon]](https://www.amazon.com/dp/)
 
 ## Get to Know the Author
 **Remo H Jansen**
@@ -73,17 +62,6 @@ TypeScript 2.x, organizes the Dublin TypeScript and Dublin OSS meetups, writes a
 maintains some open source projects on GitHub. Remo is available for conference talks,
 independent consulting, and corporate training services opportunities.
 
-****
-0
-
-****
-0
-
-****
-0
-
-****
-0
 
 ## Other books by the authors
 [Learning TypeScript](https://www.packtpub.com/web-development/learning-typescript?utm_source=github&utm_medium=repository&utm_campaign=9781783985548 )
@@ -92,9 +70,6 @@ independent consulting, and corporate training services opportunities.
 
 [](https://www.packtpub.com/application-development/learning-typescript-2x-second-edition?utm_source=github&utm_medium=repository&utm_campaign=)
 
-[]()
-
-[]()
 
 ### Suggestions and Feedback
 [Click here](https://docs.google.com/forms/d/e/1FAIpQLSdy7dATC6QmEL81FIUuymZ0Wy9vH1jHkvpY57OiMeKGqib_Ow/viewform) if you have any feedback or suggestions.

@@ -1,6 +1,6 @@
 # Hands-On Functional Programming with Typescript
 
-<a href="https://www.packtpub.com/application-development/hands-functional-programming-typescript?utm_source=github&utm_medium=repository&utm_campaign=9781788831437 "><img src="https://dz13w8afd47il.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/B09411_MockupCover.png" alt="Hands-On Functional Programming with Typescript" height="256px" align="right"></a>
+<a href="https://www.packtpub.com/application-development/hands-functional-programming-typescript?utm_source=github&utm_medium=repository&utm_campaign=9781788831437 "><img src="https://www.packtpub.com/sites/default/files/B09411_NEW1_0.png" alt="Hands-On Functional Programming with Typescript" height="256px" align="right"></a>
 
 This is the code repository for [Hands-On Functional Programming with Typescript](https://www.packtpub.com/application-development/hands-functional-programming-typescript?utm_source=github&utm_medium=repository&utm_campaign=9781788831437 ), published by Packt.
 

@@ -2,7 +2,7 @@ namespace closures_demo_1 {
 
     function makeArmy() {
         const shooters = [];
-        for (let i = 0; i < 10; i++) {
+        for (var i = 0; i < 10; i++) {
             ((index: number) => {
                 const shooter = () => {
                     console.log(index);

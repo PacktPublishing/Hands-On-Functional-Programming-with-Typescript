@@ -8,7 +8,7 @@
     "@types/node-fetch": "2.1.4",
     "@types/ramda": "0.25.45",
     "funfix": "7.0.1",
-    "immer": "1.9.3",
+    "immer": "8.0.1",
     "immutable": "4.0.0-rc.12",
     "node-fetch": "2.3.0",
     "ramda": "0.26.1",

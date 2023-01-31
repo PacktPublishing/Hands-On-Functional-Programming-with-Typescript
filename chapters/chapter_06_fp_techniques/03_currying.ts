@@ -44,7 +44,7 @@ namespace currying_demo_3 {
         return (a: T1) => (b: T2) => (c: T3) => fn(a, b, c);
     }
 
-    const replace = (s: string, f: string, r: string) => s.split(f).join(r);
+    const replace = (f: string, r: string, s: string) => s.split(f).join(r);
 
     const curriedReplace = curry3(replace);
 

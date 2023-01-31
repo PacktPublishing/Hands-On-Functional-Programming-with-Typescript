@@ -12,7 +12,7 @@ namespace pipes_demo_1 {
     const capitalize = (s: string) => s.toUpperCase();
     
     const replace = curry3(
-        (s: string, f: string, r: string) => s.split(f).join(r)
+        (f: string, r: string, s: string) => s.split(f).join(r)
     );
 
     const trimCapitalizeAndReplace = pipe(

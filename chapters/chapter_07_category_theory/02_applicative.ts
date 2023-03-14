@@ -17,7 +17,7 @@ namespace applicative_demo_1 {
         }
 
         public ap<TMap>(c: Container<(val: T) => TMap>) {
-            return c.map(fn => this.map(fn));
+            return c.map(fn => this.map(fn)._value);
         }
     
     }
